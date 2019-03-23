@@ -3,6 +3,12 @@
 - **Github Repository**: <https://github.com/shopwarrior>
 
 ## About Odessite Import Product Stream
+- New Plugin System
+- Create Plugin Config
+- Create Plugin Service
+- Install custom SW Import/Export profile
+- Decorate SW Import/Export Import Service
+- DB Adapter to handle custom profile
 
 Create a new profile for the SW Import/Export module. This profile should import a single column of SKUs from a CSV into a new Product Stream which is named after the CSV file name
 
