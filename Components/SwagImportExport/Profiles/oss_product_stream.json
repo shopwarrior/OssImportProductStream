@@ -1,0 +1,31 @@
+{
+  "id": "root",
+  "name": "Root",
+  "type": "node",
+  "children": [
+    {
+      "id": "OssImportProductStream1",
+      "name": "OssImportProductStream",
+      "index": 0,
+      "type": "node",
+      "children": [
+        {
+          "id": "OssImportProductStream2",
+          "name": "article",
+          "index": 0,
+          "type": "iteration",
+          "adapter": "default",
+          "children": [
+            {
+              "id": "OssImportProductStream3",
+              "type": "leaf",
+              "index": 0,
+              "name": "ordernumber",
+              "shopwareField": "orderNumber"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
